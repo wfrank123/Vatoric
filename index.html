@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Firstname Lastname — Portfolio</title>
+  <meta name="description" content="Firstname Lastname — Product Designer & Developer. A selection of projects and ways to get in touch." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home">Firstname Lastname</a>
+      <nav class="nav" aria-label="Primary">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation">
+          <span class="hamburger"></span>
+        </button>
+        <ul id="primary-nav" class="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><button id="theme-toggle" class="btn-ghost" aria-pressed="false">Toggle Theme</button></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Home / Hero -->
+    <section id="home" class="hero" role="region" aria-labelledby="hero-title">
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <h1 id="hero-title">Hi, I’m Firstname — I build beautiful digital products.</h1>
+          <p class="lead">I’m a product designer & front-end developer focused on creating delightful, accessible user experiences and polished interfaces.</p>
+          <p class="hero-cta">
+            <a class="btn" href="#projects">View Projects</a>
+            <a class="btn btn-outline" href="#contact">Get in touch</a>
+          </p>
+        </div>
+        <div class="hero-image" aria-hidden="true">
+          <img src="https://images.unsplash.com/photo-1543269865-cbf427effbad?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about container" aria-labelledby="about-heading">
+      <div class="about-inner">
+        <div class="about-text">
+          <h2 id="about-heading">About me</h2>
+          <p>I’m a designer and developer who loves turning ideas into products. I work across the full stack, with a passion for front-end development, interaction design, and performance. I enjoy collaborating with product teams to ship high-quality, accessible experiences.</p>
+          <ul class="about-list">
+            <li><strong>Location:</strong> City, Country</li>
+            <li><strong>Available for:</strong> Freelance, Full-time</li>
+            <li><strong>Skills:</strong> HTML, CSS, JavaScript, React, Figma, Accessibility</li>
+          </ul>
+          <p><a class="btn" href="#projects">See my work</a></p>
+        </div>
+        <div class="about-photo">
+          <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="Firstname Lastname portrait" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="projects container" aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Selected Projects</h2>
+      <p class="section-intro">A selection of projects I've shipped — product and front-end work, prototypes, and experiments.</p>
+
+      <div class="projects-grid" id="projects-grid">
+        <!-- Project cards (sample data) -->
+        <article class="card project-card" tabindex="0" data-title="Aurora Dashboard" data-image="https://images.unsplash.com/photo-1508873535684-277a3cbcc3d3?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" data-description="A modern analytics dashboard built with React and D3.js. Optimized for performance and accessibility." data-links='[{"label":"Live","url":"#"},{"label":"Repo","url":"#"}]'>
+          <div class="card-media">
+            <img src="https://images.unsplash.com/photo-1508873535684-277a3cbcc3d3?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="Aurora Dashboard screenshot">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Aurora Dashboard</h3>
+            <p class="card-excerpt">Analytics dashboard with custom visualizations and realtime updates.</p>
+            <p class="card-meta">React · D3 · Accessibility</p>
+          </div>
+        </article>
+
+        <article class="card project-card" tabindex="0" data-title="Modo Mobile App" data-image="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" data-description="End-to-end mobile app concept with a design system and prototype." data-links='[{"label":"Prototype","url":"#"}]'>
+          <div class="card-media">
+            <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="Modo App screenshot">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Modo Mobile App</h3>
+            <p class="card-excerpt">A streamlined mobile experience with an emphasis on motion and clarity.</p>
+            <p class="card-meta">Figma · React Native</p>
+          </div>
+        </article>
+
+        <article class="card project-card" tabindex="0" data-title="Ecom UI Kit" data-image="https://images.unsplash.com/photo-1605902711622-cfb43c44367e?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" data-description="A reusable UI kit for e-commerce experiences, built with accessibility patterns." data-links='[{"label":"Download","url":"#"}]'>
+          <div class="card-media">
+            <img src="https://images.unsplash.com/photo-1605902711622-cfb43c44367e?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="Ecom UI Kit screenshot">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Ecom UI Kit</h3>
+            <p class="card-excerpt">Design system and component library for fast e-commerce prototypes.</p>
+            <p class="card-meta">Design System · CSS</p>
+          </div>
+        </article>
+
+        <article class="card project-card" tabindex="0" data-title="Portfolio Template" data-image="https://images.unsplash.com/photo-1505685296765-3a2736de412f?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" data-description="This portfolio template created as a fast, accessible static site." data-links='[{"label":"View","url":"#"},{"label":"Fork","url":"#"}]'>
+          <div class="card-media">
+            <img src="https://images.unsplash.com/photo-1505685296765-3a2736de412f?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="Portfolio screenshot">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Portfolio Template</h3>
+            <p class="card-excerpt">A minimal, fast, and accessible static portfolio template.</p>
+            <p class="card-meta">HTML · CSS · JS</p>
+          </div>
+        </article>
+
+        <article class="card project-card" tabindex="0" data-title="Chat Studio" data-image="https://images.unsplash.com/photo-1517433456452-f9633a875f6f?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" data-description="A collaborative chat tool with message threading and presence." data-links='[{"label":"Demo","url":"#"}]'>
+          <div class="card-media">
+            <img src="https://images.unsplash.com/photo-1517433456452-f9633a875f6f?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="Chat Studio screenshot">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Chat Studio</h3>
+            <p class="card-excerpt">Realtime collaboration with clear affordances and responsive UI.</p>
+            <p class="card-meta">WebSockets · UX</p>
+          </div>
+        </article>
+
+        <article class="card project-card" tabindex="0" data-title="Open Source Tooling" data-image="https://images.unsplash.com/photo-1487014739447-9f8336841d58?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" data-description="Tools and workflows for developer productivity and testing." data-links='[{"label":"Repo","url":"#"}]'>
+          <div class="card-media">
+            <img src="https://images.unsplash.com/photo-1487014739447-9f8336841d58?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="Tooling screenshot">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Open Source Tooling</h3>
+            <p class="card-excerpt">CLI tools and testing helpers to streamline development.</p>
+            <p class="card-meta">Node · CLI · Testing</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Project Modal -->
+    <div id="project-modal" class="modal" aria-hidden="true" role="dialog" aria-modal="true">
+      <div class="modal-panel" role="document">
+        <button class="modal-close" aria-label="Close project details">&times;</button>
+        <div class="modal-content">
+          <img id="modal-image" src="" alt="">
+          <h3 id="modal-title"></h3>
+          <p id="modal-desc"></p>
+          <div id="modal-links" class="modal-links"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <section id="contact" class="contact container" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact</h2>
+      <p class="section-intro">Interested in working together or have a question? Send a note — I usually respond within a few days.</p>
+
+      <div class="contact-grid">
+        <form id="contact-form" class="contact-form" novalidate>
+          <label>
+            <span class="label-text">Name</span>
+            <input type="text" name="name" id="name" required placeholder="Your name">
+          </label>
+          <label>
+            <span class="label-text">Email</span>
+            <input type="email" name="email" id="email" required placeholder="name@example.com">
+          </label>
+          <label>
+            <span class="label-text">Message</span>
+            <textarea name="message" id="message" rows="6" required placeholder="Tell me about your project..."></textarea>
+          </label>
+          <div class="form-actions">
+            <button type="submit" class="btn">Send message</button>
+            <button type="reset" class="btn btn-outline">Reset</button>
+          </div>
+          <p class="form-note">This form uses your mail client if no server is configured. To use a hosted form handler, replace the submission handling in script.js.</p>
+        </form>
+
+        <aside class="contact-info" aria-labelledby="contact-info-heading">
+          <h3 id="contact-info-heading">Other ways to reach me</h3>
+          <p><strong>Email:</strong> <a href="mailto:you@example.com">you@example.com</a></p>
+          <p><strong>Location:</strong> City, Country</p>
+          <p><strong>Social:</strong></p>
+          <ul class="social">
+            <li><a href="#" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a href="#" target="_blank" rel="noopener">Twitter</a></li>
+            <li><a href="#" target="_blank" rel="noopener">LinkedIn</a></li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Firstname Lastname — Built with care.</p>
+      <p><a href="#home">Back to top</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
