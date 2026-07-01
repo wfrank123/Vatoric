@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  {% include head.html %}
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        <nav class="nav" aria-label="Primary">
+          <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation">
+            <span class="hamburger"></span>
+          </button>
+          <ul id="primary-nav" class="nav-list">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><button id="theme-toggle" class="btn-ghost" aria-pressed="false">Toggle Theme</button></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>&copy; {{ site.time | date: '%Y' }} {{ site.author | default: site.title }} — Built with care.</p>
+        <p><a href="#home">Back to top</a></p>
+      </div>
+    </footer>
+
+    <script src="{{ '/assets/js/script.js' | relative_url }}" defer></script>
+  </body>
+</html>

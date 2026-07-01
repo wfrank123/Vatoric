@@ -1,0 +1,51 @@
+- title: Aurora Dashboard
+  image: "https://images.unsplash.com/photo-1508873535684-277a3cbcc3d3?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder"
+  description: "A modern analytics dashboard built with React and D3.js. Optimized for performance and accessibility."
+  meta: "React · D3 · Accessibility"
+  links:
+    - label: Live
+      url: "#"
+    - label: Repo
+      url: "#"
+
+- title: Modo Mobile App
+  image: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder"
+  description: "End-to-end mobile app concept with a design system and prototype."
+  meta: "Figma · React Native"
+  links:
+    - label: Prototype
+      url: "#"
+
+- title: Ecom UI Kit
+  image: "https://images.unsplash.com/photo-1605902711622-cfb43c44367e?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder"
+  description: "A reusable UI kit for e-commerce experiences, built with accessibility patterns."
+  meta: "Design System · CSS"
+  links:
+    - label: Download
+      url: "#"
+
+- title: Portfolio Template
+  image: "https://images.unsplash.com/photo-1505685296765-3a2736de412f?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder"
+  description: "This portfolio template created as a fast, accessible static site."
+  meta: "HTML · CSS · JS"
+  links:
+    - label: View
+      url: "#"
+    - label: Fork
+      url: "#"
+
+- title: Chat Studio
+  image: "https://images.unsplash.com/photo-1517433456452-f9633a875f6f?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder"
+  description: "A collaborative chat tool with message threading and presence."
+  meta: "WebSockets · UX"
+  links:
+    - label: Demo
+      url: "#"
+
+- title: Open Source Tooling
+  image: "https://images.unsplash.com/photo-1487014739447-9f8336841d58?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder"
+  description: "Tools and workflows for developer productivity and testing."
+  meta: "Node · CLI · Testing"
+  links:
+    - label: Repo
+      url: "#"
